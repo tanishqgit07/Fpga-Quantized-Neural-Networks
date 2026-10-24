@@ -1,0 +1,9 @@
+# Normalise line endings; shell scripts must stay LF so they run on Linux build machines
+* text=auto
+*.sh text eol=lf
+*.tcl text eol=lf
+*.npy binary
+*.png binary
+*.pdf binary
+*.bit binary
+*.hwh binary

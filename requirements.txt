@@ -1,0 +1,24 @@
+# Python 3.11 only. Tensorflow 2.15 is the last version with stable
+# QKeras compatibility on Windows; pinning the core stack but letting
+# data/plot libs float so pip can resolve smoothly.
+
+tensorflow==2.15.0
+tf_keras==2.15.0
+hls4ml
+qkeras
+tensorflow_model_optimization
+
+# Data prep
+wfdb
+scikit-learn
+pandas
+numpy<2.0
+
+# Plots / reports
+matplotlib
+reportlab
+python-docx
+Pillow
+
+# PYNQ board-side libs (install on the board, not this laptop)
+# pynq==2.7

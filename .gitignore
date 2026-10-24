@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Trained model artifacts (regenerate via train_*.py)
+*.h5
+*.keras
+X_*.npy
+y_*.npy
+
+# Vivado / hls4ml build outputs (large, regenerable)
+hls_project_*/
+vivado_*/
+*.jou
+*.log
+*.str
+*.cache/
+.Xil/
+*.runs/
+*.gen/
+
+# Bitstream outputs (keep deploy/ at the per-project level if you want)
+deploy/
+
+# Datasets (download separately, don't commit)
+mit-bih-arrhythmia-database-1.0.0/
+mitdb/
+NSL-KDD/
+*.csv.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# NSL-KDD raw files (nid/prep_nsl_kdd.py auto-downloads them)
+KDDTrain+.txt
+KDDTest+.txt
+
+# Archives / bundles sent between teammates
+*.zip
+*.tar.gz
+
+# Packaging output from board/package_for_board.ps1
+board_pkg/
+
+# Prebuilt, board-tested bundles ARE committed (bitstreams + their test data)
+!prebuilt/**
