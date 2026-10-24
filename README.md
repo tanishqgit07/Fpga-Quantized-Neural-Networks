@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FPGA-Accelerated Quantized Neural Networks on PYNQ-Z2
 
 **ECG arrhythmia detection and network intrusion detection via hls4ml**
@@ -111,3 +112,7 @@ We also thank:
   institution = {Vishwakarma Institute of Technology, Pune}
 }
 ```
+=======
+# Fpga-Quantized-Neural-Networks
+FPGA-Accelerated Quantized Neural Networks on PYNQ-Z2 for ECG Arrhythmia Detection and Network Intrusion Detection using hls4ml. Implements quantization-aware training, 50% weight pruning, and hardware-accelerated inference for efficient edge AI.
+>>>>>>> dd37b3baf4685b8adb5578c4905d389e4e5f2776
